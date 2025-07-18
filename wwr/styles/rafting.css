@@ -39,7 +39,7 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a{
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ nav, p, section, article {
     position: relative;
 }
 
-.hero img{
+.hero img {
     display: block;
     width: 100%;
     height: auto;
@@ -61,8 +61,20 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: black;
 }
+
+.hero article {
+    position: absolute;
+    top: 200px; /* distancia desde arriba */
+    left: 20px; /* distancia desde la izquierda */
+    color: white;
+    background-color: rgba(6, 8, 10, 0.767); 
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 
 .hero article img {
     float: right;
