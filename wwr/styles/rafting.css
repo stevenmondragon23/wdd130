@@ -10,7 +10,7 @@
 
 header { 
     background-color: var(--primary-color);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
 }
 
 * {
@@ -25,13 +25,13 @@ body {
 }
 
 header, main, footer {
-    width: 840px ;
+    width: 840px;
     margin: 0 auto;
 }
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
 nav, p, section, article {
@@ -66,8 +66,8 @@ h1 {
 
 .hero article {
     position: absolute;
-    top: 200px; /* distancia desde arriba */
-    left: 20px; /* distancia desde la izquierda */
+    top: 200px;
+    left: 20px; 
     color: white;
     background-color: rgba(6, 8, 10, 0.767); 
     padding: 10px;
@@ -79,4 +79,13 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    border: black;
+    margin: 1%;
+
+}
+
+
+header img, footer img {
+    padding: 10px;
+    width: 100px
 }
