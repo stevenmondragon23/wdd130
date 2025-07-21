@@ -87,7 +87,8 @@ h1 {
 
 header img, footer img {
     padding: 10px;
-    width: 100px
+    width: 100px;
+    height: auto;
 }
 
 a {
