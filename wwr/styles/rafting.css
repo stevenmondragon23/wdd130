@@ -213,10 +213,9 @@ header nav{
 }
 
 .divide figcaption{
-  margin-top: 8px; /* separa la imagen del texto */
+  margin-top: 8px; 
   font-size: 0.9rem;
   color: var(--accent2-color);
-  font-style: var(--body-font);
 }
 
 .sec-elem {
