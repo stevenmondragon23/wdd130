@@ -57,7 +57,7 @@ main{
 }
 
 footer{
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 
 
@@ -232,4 +232,8 @@ header nav{
 
 .sec-elem p{
     justify-content: start;
+}
+
+footer p {
+    color: black;
 }
