@@ -30,6 +30,7 @@ header {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+    
 }
 
 header, main, footer {
@@ -41,7 +42,7 @@ h1, h2 {
     display: flex;
     justify-content: center;
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 nav, p, section, article {
@@ -51,8 +52,13 @@ nav, p, section, article {
 
 
 
+main{
+    background-color: var(--secondary-color);
+}
 
-
+footer{
+    background-color: var(--primary-color);
+}
 
 
 
@@ -199,7 +205,6 @@ header nav{
 
 }
 
-/* 5 IMAGES */
 
 .divide figure{
   display: inline-flex;
@@ -210,7 +215,8 @@ header nav{
 .divide figcaption{
   margin-top: 8px; /* separa la imagen del texto */
   font-size: 0.9rem;
-  color: #555;
+  color: var(--accent2-color);
+  font-style: var(--body-font);
 }
 
 .sec-elem {
