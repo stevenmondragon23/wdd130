@@ -54,10 +54,13 @@ nav, p, section, article {
 
 main{
     background-color: var(--secondary-color);
+    margin-bottom: 0;
+    padding-bottom: 50px;
 }
 
 footer{
     background-color: var(--accent1-color);
+    margin-top: 0;
 }
 
 
@@ -162,10 +165,9 @@ header nav{
 }
 
 .heads a:hover {
-	color: tomato;
 	font-weight: 700;
 	text-decoration: underline;
-    background-color: black;
+    background-color: tomato;
 }
 
 
@@ -235,4 +237,170 @@ header nav{
 
 footer p {
     color: black;
+}
+
+
+/* contact section */
+
+
+
+
+
+/* BODY */
+.contact-section section{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
+
+.contact-section h2{
+    display: grid;
+    justify-content: center;
+    padding: 3px;
+    font-size: xx-large;
+}
+
+.img-sect-contact{
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+
+}
+
+.img-sect-contact img{
+    width: 150px;
+    height: auto;
+    align-content: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section p{
+    color: black;
+}
+
+.img-sect-contact figure{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.img-sect-contact figcaption{
+    display: grid;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.466);
+    color: black;
+    border-radius: 4px;
+}
+
+
+/* FORM */
+
+.contact-section form{
+    background-color: rgba(255, 255, 255, 0.15);    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    display: grid;
+    gap: 6px;
+
+}
+
+
+
+/* INFO SECTION*/
+.info p{
+    display: grid;
+    justify-content: start;
+}
+
+
+/* QUESTIONS */
+.contact-section input{
+    padding: 2px;
+}
+
+
+
+
+/* RADIUS*/
+
+.radio-group {
+    margin-top: 3px;
+}
+
+
+
+.radio-group label {
+    font-weight: normal;
+    display: block;
+    margin-left: 20px;
+}
+
+
+
+/* BUTTOM*/
+.contact-section button{
+    display: grid;
+    border-radius: 10px;
+    width: 150px;
+    background-color: var(--accent1-color);
+}
+
+.contact-section button:hover {
+	font-weight: 700;
+	text-decoration: underline;
+    background-color: tomato;
+}
+
+
+
+/* H2 Y FORM*/
+
+.principal {
+    position: relative;
+}
+
+.principal img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.principal article {
+    position: absolute;
+
+    inset: 120px 50px 25px 50px;
+    color: white;
+    background-color: rgba(6, 8, 10, 0.767); 
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.principal article img {
+    float: right;
+    width: 125px;
+    border: black;
+    margin: 1%;
+
+}
+
+/* MAP*/
+.map iframe{
+    position: absolute;
+    inset: 220px 200px;
+    width: 300px;
+    height: 150px;
+
+}
+
+footer a{
+    font-style: var(--body-font);
+    font-size: small;
 }
