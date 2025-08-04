@@ -331,14 +331,15 @@ footer p {
 
 .radio-group {
     margin-top: 3px;
+    display: grid;
+    grid-template-columns: auto 1fr;
 }
 
 
 
 .radio-group label {
     font-weight: normal;
-    display: block;
-    margin-left: 20px;
+    margin-left: 2px;
 }
 
 
