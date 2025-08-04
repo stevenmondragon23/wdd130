@@ -401,6 +401,5 @@ footer p {
 }
 
 footer a{
-    font-style: var(--body-font);
     font-size: small;
 }
