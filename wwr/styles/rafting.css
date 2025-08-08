@@ -405,7 +405,82 @@ footer a{
     font-size: small;
 }
 
-/*FOPM COLOR */
+/* HOME PAGE*/
+
+.home-title h1{
+    position: absolute;
+    margin: 180px 0px;
+    background-color: black;
+    color: white;
+    font-size: 5em;
+
+}
 
 
+.home-formun p{
+    color: white;
+    font-size: smaller;
+    position: relative;
+    margin: 0;
+}
 
+.home-formun button{
+    margin-top: 10px;
+}
+
+
+.img-sect-home{
+    display: flex;
+    width: 300px;
+    height: auto;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin: 10px 50px;
+    border: 1px solid black;
+}
+
+.img-sect-home img{
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 0 0 100%;
+    width: 50%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+
+.contact-section a{
+    display: grid;
+    background-color: var(--accent1-color);
+    color: black;
+    border-radius: 6px;
+    justify-content: center;
+    margin: 0px 50px;
+    border: 2px solid black;
+}
+
+.fig-cap-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+}
+
+.fig-cap-home figure{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.fig-cap-home figcaption {
+    justify-content: center;
+
+}
+
+
+.fig-cap-home img{
+    display: grid;
+    width: 50px;
+    height: auto;
+    margin-bottom: 1px;
+
+}
