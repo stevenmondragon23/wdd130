@@ -462,25 +462,41 @@ footer a{
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
+    gap: 3px;
 }
 
 .fig-cap-home figure{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 30% 1fr 1fr;
     align-items: center;
     justify-items: center;
 }
 
 .fig-cap-home figcaption {
     justify-content: center;
+    position: relative;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 8px;
 
 }
+
+.fig-cap-home h1 {
+    position: relative;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 4px;
+    background-color: #ffff;
+}
+
 
 
 .fig-cap-home img{
     display: grid;
-    width: 50px;
+    width: 150px;
     height: auto;
     margin-bottom: 1px;
+    border-radius: 6px;
 
 }
