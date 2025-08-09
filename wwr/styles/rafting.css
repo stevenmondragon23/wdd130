@@ -381,7 +381,6 @@ footer p {
 
 .principal article {
     position: absolute;
-
     inset: 120px 50px 25px 50px;
     color: white;
     background-color: rgba(6, 8, 10, 0.767); 
